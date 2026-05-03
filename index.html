@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="fancy-container">
+        <label id="titleLabel">Calculator: </label>
+        <select id="select" autocomplete="off">
+            <option value="basic">Basic Calculator</option>
+            <option value="advance">Advanced Calculator</option>
+        </select>  
+        </div>
+        
+        <div id="calculator-container">
+
+            <input id="display" type="text" autocomplete="off" readonly>
+            <div id="advance-button-container" class="layout">
+                <button id="sinBtn"  class="advanceButtons appending">sin</button>
+                <button id="cosBtn" class="advanceButtons appending">cos</button>
+                <button id="tanBtn" class="advanceButtons appending">tan</button>
+                <button id="angleMode"  class="deg-btn advanceButtons">DEG</button>
+
+                <button id="lnBtn"  class="advanceButtons appending">ln</button>
+                <button id="logBtn"  class="advanceButtons appending">log</button>
+                <button value="(" class="advanceButtons appending">(</button>
+                <button value=")" class="advanceButtons appending">)</button>
+                <button id="inv" class="advanceButtons">inv</button>
+
+                <button  class="advanceButtons appending">!</button>
+                <button class="clearButton">AC</button>
+                <button class="operationButton appending">%</button>
+                <button class="delButton">del</button>
+                <button  class="operationButton appending">÷</button>
+                
+                <button class="advanceButtons appending">^</button>
+                <button class="numBtn appending">7</button>
+                <button class="numBtn appending">8</button>
+                <button class="numBtn  appending">9</button>
+                <button class="operationButton appending">×</button>
+                
+                <button  class="advanceButtons appending">√</button>
+                <button class="numBtn appending">4</button>
+                <button class="numBtn appending">5</button>
+                <button class="numBtn appending">6</button>
+                <button class="operationButton appending">-</button>
+                
+                <button  class="advanceButtons appending">π</button>
+                <button  class="numBtn appending">1</button>
+                <button  class="numBtn appending">2</button>
+                <button  class="numBtn appending">3</button>
+                <button  class="operationButton appending">+</button>   
+                
+                <button class="advanceButtons appending">e</button>
+                <button class="operationButton appending">mod</button>
+                <button class="numBtn appending">0</button>
+                <button class="numBtn appending">.</button>
+                <button  class="calButton">=</button>
+            </div>
+            <div id="basic-button-container" class="layout active">
+
+                <button class="clearButton">AC</button>
+                <button class="operationButton appending">%</button>
+                <button class="delButton">del</button>
+                <button  class="operationButton appending">÷</button>
+                
+             
+                <button class="numBtn appending">7</button>
+                <button class="numBtn appending">8</button>
+                <button class="numBtn  appending">9</button>
+                <button class="operationButton appending">×</button>
+                
+              
+                <button class="numBtn appending">4</button>
+                <button class="numBtn appending">5</button>
+                <button class="numBtn appending">6</button>
+                <button class="operationButton appending">-</button>
+                
+      
+                <button  class="numBtn appending">1</button>
+                <button  class="numBtn appending">2</button>
+                <button  class="numBtn appending">3</button>
+                <button  class="operationButton appending">+</button>   
+           
+                <button class="numBtn appending">0</button>
+                <button class="numBtn appending">.</button>
+                <button  class="calButton">=</button>
+
+            </div>
+        </div>
+        </div>
+       
+   
+    <script type="module" src="index.js"></script>
+</body>
+</html>
